@@ -1,0 +1,136 @@
+:root {
+    font-size: 62.5%;
+
+}
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+h1 {
+    font: 4rem;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+
+section{
+    min-height: 100vh;
+    min-width: 100vw
+}
+
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(219, 46, 133, 1);
+    color: white;
+  
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.nav ul li a{
+    display: flex;
+    padding: 1rem;
+    padding-left: 5rem;
+    font-size: 1.6rem;
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+.nav h1{
+    font-size: 2rem;
+}
+section .inicio  {
+    margin-top: 5.5rem;
+    display: grid;
+    grid-template-columns: (1fr 1.5fr );
+    font-size: 4rem;
+   gap: 10px;
+   height: 100vh;
+}
+section .inicio .texto{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagem {
+    font-size: 20rem;
+}
+.imagemdedoces{
+    display: flex;
+    justify-content: center;
+   
+
+}
+.imagemdedoces img{
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    width: 40rem;
+    height: 40rem;
+    padding: 2rem;
+transition: all 300ms ease-in-out;
+}
+section .quemsomos  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+   gap: 10px;
+   z-index: 1;
+   padding-left: 1rem;
+}
+section .inicio .imagem2{
+    width: 50rem;
+    height: 60rem;
+    z-index: 2;
+    height: 100vh;
+}
+.background{
+    background-image: url('../css/pink.svg');
+    background-size: cover;
+    background-position: center;
+    width:100vw;
+    height: 110vh;
+    
+}
+
+.doces{
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.imagemdedoces img:hover{
+    transform: translate(-3%,3%) scale(1.2)
+    
+}
+.doces h1{
+    font: italic;
+    font-size: 8rem;
+    color: pink;
+    
+}
+.doces  p{
+    font-size: 3rem;
+    margin-top: 0;
+}
+footer{
+    font-size: 3rem;
+max-height: 15rem;
+    color: white;
+}
+footer p{
+    font-style: bold;
+    font-size: 2rem;
+}
